@@ -1,0 +1,87 @@
+
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #E5E5E5;
+}
+.home{
+    display: grid;
+    place-content: center;
+    height: 100%;
+    gap: 0.2rem;
+}
+
+.home__pokedex{
+    width: 700px;
+    margin-bottom: 30px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.home__title{
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+.home__subtitle{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.home__form{
+    position: relative;
+    width: 700px;
+    height: 60px;
+    overflow: hidden;
+}
+.home__name{
+    margin: 0;
+    padding-left: 1rem;
+    width: 550px;
+    height: 50px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: .5em 0  0 .5em;
+    font-size: 1.2rem;
+}
+.home__name::placeholder {
+    padding-left: 2rem;
+     color: #D3D3D3; 
+    }
+
+
+.home__start-btn{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 50px;
+    background-color:#DD1A1A;;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 0 .5em .5em 0;
+    cursor: pointer;
+}
+
+.home__footer{
+    justify-self: flex-end;
+}
+.home__pokeball{
+    position: absolute;
+    width: 70px;
+    aspect-ratio: 1;
+    z-index: 70;
+    left: 50%;
+    top: 15px;
+}
+.home__red{
+    position: relative;
+    background-color: red;
+    height: 50px;
+}
+.home__black{
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+}

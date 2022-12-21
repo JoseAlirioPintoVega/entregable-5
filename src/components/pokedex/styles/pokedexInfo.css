@@ -1,0 +1,185 @@
+.info{
+    padding: 8rem 3rem;
+    height: auto;
+  
+    background-color: #E5E5E5;;
+}
+.info__bg{
+    
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: red;
+}
+.info__poke-img{
+    position: absolute;
+    width: 250px;
+    top:-70%;
+    left: calc(50% - 7rem);
+}
+.info__main{
+    background-color: #FFFFFF;
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    width: 100%;
+}
+
+.info__id{
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid #D3D3D3;
+    display: flex;
+    width: 50px;
+    margin: auto;
+}
+.info__name-container{
+    display: flex;
+}
+.header__Vector{
+    height: 2px;
+    align-self: center;
+}
+.info__name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.info__weight-height{
+    display: flex;
+    gap: 3rem;
+    align-self: center;
+    margin: auto;
+}
+.info__item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: .7rem;
+}
+.info__data{
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+}
+.info__type-abilities{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.info__subtitle-h4{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+.info__type-list,
+.info__abilities-list   {
+    display: flex;
+    gap: 1rem;
+
+}
+.info__item-ability{
+    font-size: 20px ;
+    padding: 4px 3rem;
+    background-color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    text-transform: capitalize;
+}
+.info__item-type{
+    font-size: 20px;
+    padding: 4px 3rem;
+    background-color: red;
+    color: #FFFFFF;
+    text-transform: capitalize;
+
+}
+.subtitle-stats-container{
+    display: flex;
+}
+.info__subtitle-h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+    padding-right: 2rem;
+}
+
+.info-stat-item{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+}
+.bar-stat{
+    margin: 8px 0;
+    height: 20px;
+    background-color: #D3D3D3;
+}
+.info__movements-container{
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem 6rem;
+}
+.subtitle-movements-container{
+    display: flex;
+    
+}
+.info__move-item{
+    padding: 0.7rem 1rem;
+    margin: .5rem .5rem;
+    border-radius: 1rem;
+    background-color: #D3D3D3 ;
+    text-transform: lowercase;
+    font-size: .9rem;
+}
+
+.bg-fire{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+} 
+.bg-water{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-normal{
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+} 
+.bg-fighting{
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+.bg-flying{
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+} 
+.bg-poison{
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+}
+.bg-bug{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+} 
+.bg-rock{
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+.bg-electric{
+    background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+} 
+.bg-steel{
+background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+}
+.bg-ground{
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+}
+.bg-ice{  
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+}
+.bg-dragon{
+    background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+}
+.bg-dark{
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+}
+.bg-psychic{
+    background: linear-gradient(179.75deg, #dfe1e9 -19.96%, #989dca 43.67%, #5c75e4 138.4%);
+}
+.bg-fairy{
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}

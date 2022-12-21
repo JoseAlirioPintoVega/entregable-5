@@ -1,0 +1,31 @@
+.header{
+    height: auto;
+}
+.header__red{
+    position: relative;
+    background-color: red;
+    height: 90px;
+}
+.header__pokedex{ 
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+    left: 3em   ;
+    z-index: 100;
+
+}
+
+.header__black{
+    position: relative;
+    background-color: black;
+    height: 50px;
+    margin-bottom: 3rem;
+}
+.header__pokeball{ 
+    position: absolute;
+    width: 80px;
+    aspect-ratio: 1;
+    top: -17px;
+    right: 5vw;
+    
+}
