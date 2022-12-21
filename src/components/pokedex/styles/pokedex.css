@@ -31,7 +31,7 @@ p{
     line-height: 28px;
     color: white;
     border-radius: 0 1rem 1rem 0;
-    position: absolute;
+    
 }
 .pokedex__select{
     height: 68px;
@@ -40,8 +40,7 @@ p{
     border-radius: 1.5rem;
     padding: 0 1rem;
     cursor: pointer;
-    position: absolute;
-    left: 700px;
+   
 }
 .poke-Container{
     display: flex;
