@@ -31,7 +31,8 @@
     font-size: 2rem;
     border: 1px solid #D3D3D3;
     display: flex;
-    width: 50px;
+    width: auto;
+    padding: 8px;
     margin: auto;
 }
 .info__name-container{
@@ -117,6 +118,10 @@
     height: 20px;
     background-color: #D3D3D3;
 }
+.progress__fill{
+    height: 20px;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+}
 .info__movements-container{
     margin-top: 2rem;
     background-color: white;
@@ -124,7 +129,7 @@
 }
 .subtitle-movements-container{
     display: flex;
-    
+
 }
 .info__move-item{
     padding: 0.7rem 1rem;

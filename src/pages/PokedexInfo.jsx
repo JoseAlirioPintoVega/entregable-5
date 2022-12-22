@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Header from '../components/Header'
 import '../components/pokedex/styles/pokedexInfo.css'
+import RenderInfo from '../components/RenderInfo'
 
 const PokedexInfo = () => {
 
@@ -73,18 +74,7 @@ const PokedexInfo = () => {
                     <ul>
                         {
                             pokemon?.stats.map(stat => (
-                                <> 
-                                
-                                <li className='info-stat-item' key={stat.stat.name}>
-                                    <span>{stat.stat.name}:</span> 
-                                    <span>{stat.base_stat} / 150</span> 
-                                </li>
-                                <div  className={`bar-stat`} key={stat.stat.url}>
-                                    <div  className={`bar-stat-2`}>
-
-                                    </div>
-                                </div>
-                                </>
+                                <RenderInfo key={stat.name} stat={stat}/>
                             
                             ))
                         }
